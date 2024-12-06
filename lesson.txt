@@ -1,0 +1,5 @@
+push oxiriga qo'shish
+
+pop oxiridan olish
+shift boshidan olish 
+unshift boshiga qoshish ====tavsiya etilmaydi

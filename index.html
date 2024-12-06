@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALPINA Market</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      href="./src/assets/svg/user.svg"
+      type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body class="font-sans">
+    <header>
+      <nav
+        class="container1 flex justify-between border-b py-[14px] max-[550px]:hidden">
+        <select
+          class="outline-none text-[12px] max-[550px]:hidden hover:text-[#079294] transition-all"
+          name=""
+          id="">
+          <option value="">Санкт-Петербург</option>
+        </select>
+        <ul class="flex items-center justify-between gap-6 text-[14px]">
+          <li>
+            <a class="hover:text-[#079294] transition-all" href="">О нас</a>
+          </li>
+          <li>
+            <a class="hover:text-[#079294] transition-all" href=""
+              >Наши салоны</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-[#079294] transition-all" href=""
+              >Оплата и доставка</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-[#079294] transition-all" href=""
+              >Для бизнеса</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <nav class="container1 flex items-center justify-between py-4 gap-2">
+        <label class="hidden max-[550px]:block" for="check"
+          ><i class="fa-solid fa-bars-staggered"></i
+        ></label>
+        <a href="">
+          <img src="./src/assets/img/logo.png" alt="" />
+        </a>
+        <nav
+          class="flex items-center justify-between p-3 bg-[#f6f6f6] font-abel rounded w-[60%] max-[550px]:hidden">
+          <input
+            placeholder="Белый стул"
+            class="w-[100%] outline-none border-none bg-transparent"
+            type="text" />
+          <img src="./src/assets/svg/search.svg" alt="" />
+        </nav>
+        <nav class="flex flex-col items-end max-[850px]:hidden">
+          <h1
+            class="text-[20px] font-normal hover:text-[#079294] transition-all">
+            8 800 700 40 24
+          </h1>
+          <select
+            class="text-[12px] font-normal outline-none hover:text-[#079294] transition-all"
+            name=""
+            id="">
+            <option
+              value="
+            ">
+              Позвонить или написать
+            </option>
+          </select>
+        </nav>
+        <nav class="flex items-center gap-3">
+          <img src="./src/assets/svg/user.svg" alt="" />
+          <img src="./src/assets/svg/message.svg" alt="" />
+          <img src="./src/assets/svg/like.svg" alt="" />
+          <img src="./src/assets/svg/bucket.svg" alt="" />
+        </nav>
+      </nav>
+      <nav class="hidden max-[550px]:block container1">
+        <nav
+          class="flex items-center justify-between p-3 bg-[#f6f6f6] font-abel rounded w-[100%]">
+          <input
+            placeholder="Белый стул"
+            class="w-[100%] outline-none border-none bg-transparent"
+            type="text" />
+          <img src="./src/assets/svg/search.svg" alt="" />
+        </nav>
+      </nav>
+    </header>
+    <section>
+      <div class="container1 py-5">
+        <img src="./src/assets/img/showcaseimg.png" alt="" />
+      </div>
+    </section>
+    <section class="py-10">
+      <div class="container1">
+        <div
+          class="text-[16px] font-extrabold flex items-center justify-between max-[300px]:flex-col max-[300px]:items-start mb-5">
+          <a>Каталог по комнатам</a>
+          <a href="" class="hover:underline">Все комнаты</a>
+        </div>
+        <div class="flex items-center justify-between gap-3">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div
+                  class="bg-white hover:shadow-[0px_0px_20px_#cacaca] transition-all w-fit">
+                  <img src="./src/assets/img/triple1.png" alt="" />
+                  <p class="py-3 pl-2">Ванная</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-white hover:shadow-[0px_0px_20px_#cacaca] transition-all w-fit">
+                  <img src="./src/assets/img/triple2.png" alt="" />
+                  <p class="py-3 pl-2">Прихожая</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-white hover:shadow-[0px_0px_20px_#cacaca] transition-all w-fit">
+                  <img src="./src/assets/img/triple3.png" alt="" />
+                  <p class="py-3 pl-2">Кухня</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container1">
+        <div
+          class="text-[16px] font-extrabold flex items-center justify-between max-[320px]:flex-col max-[320px]:items-start mb-5">
+          <a>Популярные категории</a>
+          <a href="" class="hover:underline">Все категории</a>
+        </div>
+        <div class="flex items-center justify-between gap-3">
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div
+                  class="bg-white transition-all w-fit mx-auto max-[320px]:w-[100%]">
+                  <div
+                    class="flex items-center justify-center flex-col w-[190px] h-[206px] bg-[#f6f6f6] max-[320px]:w-[100%]">
+                    <img src="./src/assets/img/minicard1.png" alt="" />
+                  </div>
+                  <p class="py-3 text-center">Кресла</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-white transition-all w-fit mx-auto max-[320px]:w-[100%]">
+                  <div
+                    class="flex items-center justify-center flex-col w-[190px] h-[206px] bg-[#f6f6f6] max-[320px]:w-[100%]">
+                    <img src="./src/assets/img/minicard2.png" alt="" />
+                  </div>
+                  <p class="py-3 text-center">Столы</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-white transition-all w-fit mx-auto max-[320px]:w-[100%]">
+                  <div
+                    class="flex items-center justify-center flex-col w-[190px] h-[206px] bg-[#f6f6f6] max-[320px]:w-[100%]">
+                    <img src="./src/assets/img/minicard3.png" alt="" />
+                  </div>
+                  <p class="py-3 text-center">Декор</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-white transition-all w-fit mx-auto max-[320px]:w-[100%]">
+                  <div
+                    class="flex items-center justify-center flex-col w-[190px] h-[206px] bg-[#f6f6f6] max-[320px]:w-[100%]">
+                    <img src="./src/assets/img/minicard1.png" alt="" />
+                  </div>
+                  <p class="py-3 text-center">Стулья</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-white transition-all w-fit mx-auto max-[320px]:w-[100%]">
+                  <div
+                    class="flex items-center justify-center flex-col w-[190px] h-[206px] bg-[#f6f6f6] max-[320px]:w-[100%]">
+                    <img src="./src/assets/img/minicard2.png" alt="" />
+                  </div>
+                  <p class="py-3 text-center">Стулья</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-white transition-all w-fit mx-auto max-[320px]:w-[100%]">
+                  <div
+                    class="flex items-center justify-center flex-col w-[190px] h-[206px] bg-[#f6f6f6] max-[320px]:w-[100%]">
+                    <img src="./src/assets/img/minicard1.png" alt="" />
+                  </div>
+                  <p class="py-3 text-center">Стулья</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-10">
+      <div
+        class="container1 flex items-center justify-between p-8 bg-[#f6f6f6] max-[922px]:flex-col max-[922px]:items-center gap-[30px]">
+        <h1
+          class="text-[24px] text-[#1a344d] text-center max-[350px]:text-[20px]">
+          Информационный блок про работу с бизнесом
+        </h1>
+        <button
+          class="rounded border border-black py-4 px-16 text-[14px] hover:bg-black hover:text-[#f6f6f6] transition-all active:scale-[0.9] max-[922px]:px-0 max-[922px]:w-[100%]">
+          Узнать подробнее
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <div class="container1">
+        <div
+          class="text-[16px] font-extrabold flex items-center justify-between max-[320px]:flex-col max-[320px]:items-start mb-5">
+          <a>Лучшее предложение</a>
+          <a href="" class="hover:underline">Все предложения</a>
+        </div>
+        <div class="flex justify-between gap-2 flex-wrap max-[1369px]:gap-5">
+          <div class="w-fit mx-auto">
+            <div
+              class="flex items-center justify-center flex-col w-[319px] max-[330px]:w-[270px] h-[332px] bg-[#f6f6f6] relative">
+              <img src="./src/assets/img/bigcard1.png" alt="" />
+              <p
+                class="p-2 bg-black text-white rounded-[8px] absolute top-2 left-2">
+                Распродажа
+              </p>
+              <img
+                class="absolute top-3 right-3"
+                src="./src/assets/svg/blacklike.svg"
+                alt="" />
+            </div>
+            <div
+              class="flex flex-col gap-4 pt-4 max-[330px]:mx-2 max-[350px]:text-[13px]">
+              <div class="flex items-start justify-between">
+                <p>
+                  Декоративный куст, с<br />
+                  шикарными листьями, горшком
+                </p>
+                <p>2 000 руб.</p>
+              </div>
+              <p>120 × 212 × 46</p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/addtree.png" alt="" />
+                </div>
+                <img src="./src/assets/svg/bucket2.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="w-fit mx-auto">
+            <div
+              class="flex items-center justify-center flex-col w-[319px] max-[330px]:w-[270px] h-[332px] bg-[#f6f6f6] relative">
+              <img src="./src/assets/img/bigcard2.png" alt="" />
+              <p
+                class="p-2 bg-black text-white rounded-[8px] absolute top-2 left-2">
+                Распродажа
+              </p>
+              <img
+                class="absolute top-3 right-3"
+                src="./src/assets/svg/blacklike.svg"
+                alt="" />
+            </div>
+            <div
+              class="flex flex-col gap-4 pt-4 max-[330px]:mx-2 max-[350px]:text-[13px]">
+              <div class="flex items-start justify-between">
+                <p>
+                  Декоративный куст, с<br />
+                  шикарными листьями, горшком
+                </p>
+                <p>2 000 руб.</p>
+              </div>
+              <p>120 × 212 × 46</p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/addtree.png" alt="" />
+                </div>
+                <img src="./src/assets/svg/bucket2.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="w-fit mx-auto">
+            <div
+              class="flex items-center justify-center flex-col w-[319px] max-[330px]:w-[270px] h-[332px] bg-[#f6f6f6] relative">
+              <img src="./src/assets/img/bigcard3.png" alt="" />
+              <p
+                class="p-2 bg-black text-white rounded-[8px] absolute top-2 left-2">
+                Распродажа
+              </p>
+              <img
+                class="absolute top-3 right-3"
+                src="./src/assets/svg/blacklike.svg"
+                alt="" />
+            </div>
+            <div
+              class="flex flex-col gap-4 pt-4 max-[330px]:mx-2 max-[350px]:text-[13px]">
+              <div class="flex items-start justify-between">
+                <p>
+                  Декоративный куст, с<br />
+                  шикарными листьями, горшком
+                </p>
+                <p>2 000 руб.</p>
+              </div>
+              <p>120 × 212 × 46</p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/addtree.png" alt="" />
+                </div>
+                <img src="./src/assets/svg/bucket2.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="w-fit mx-auto">
+            <div
+              class="flex items-center justify-center flex-col w-[319px] max-[330px]:w-[270px] h-[332px] bg-[#f6f6f6] relative">
+              <img src="./src/assets/img/bigcard4.png" alt="" />
+              <p
+                class="p-2 bg-black text-white rounded-[8px] absolute top-2 left-2">
+                Распродажа
+              </p>
+              <img
+                class="absolute top-3 right-3"
+                src="./src/assets/svg/blacklike.svg"
+                alt="" />
+            </div>
+            <div
+              class="flex flex-col gap-4 pt-4 max-[330px]:mx-2 max-[350px]:text-[13px]">
+              <div class="flex items-start justify-between">
+                <p>
+                  Декоративный куст, с<br />
+                  шикарными листьями, горшком
+                </p>
+                <p>2 000 руб.</p>
+              </div>
+              <p>120 × 212 × 46</p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/addtree.png" alt="" />
+                </div>
+                <img src="./src/assets/svg/bucket2.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="w-fit mx-auto">
+            <div
+              class="flex items-center justify-center flex-col w-[319px] max-[330px]:w-[270px] h-[332px] bg-[#f6f6f6] relative">
+              <img src="./src/assets/img/bigcard5.png" alt="" />
+              <p
+                class="p-2 bg-black text-white rounded-[8px] absolute top-2 left-2">
+                Распродажа
+              </p>
+              <img
+                class="absolute top-3 right-3"
+                src="./src/assets/svg/blacklike.svg"
+                alt="" />
+            </div>
+            <div
+              class="flex flex-col gap-4 pt-4 max-[330px]:mx-2 max-[350px]:text-[13px]">
+              <div class="flex items-start justify-between">
+                <p>
+                  Декоративный куст, с<br />
+                  шикарными листьями, горшком
+                </p>
+                <p>2 000 руб.</p>
+              </div>
+              <p>120 × 212 × 46</p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/addtree.png" alt="" />
+                </div>
+                <img src="./src/assets/svg/bucket2.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="w-fit mx-auto">
+            <div
+              class="flex items-center justify-center flex-col w-[319px] max-[330px]:w-[270px] h-[332px] bg-[#f6f6f6] relative">
+              <img src="./src/assets/img/bigcard6.png" alt="" />
+              <p
+                class="p-2 bg-black text-white rounded-[8px] absolute top-2 left-2">
+                Распродажа
+              </p>
+              <img
+                class="absolute top-3 right-3"
+                src="./src/assets/svg/blacklike.svg"
+                alt="" />
+            </div>
+            <div
+              class="flex flex-col gap-4 pt-4 max-[330px]:mx-2 max-[350px]:text-[13px]">
+              <div class="flex items-start justify-between">
+                <p>
+                  Декоративный куст, с<br />
+                  шикарными листьями, горшком
+                </p>
+                <p>2 000 руб.</p>
+              </div>
+              <p>120 × 212 × 46</p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/addtree.png" alt="" />
+                </div>
+                <img src="./src/assets/svg/bucket2.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="w-fit mx-auto">
+            <div
+              class="flex items-center justify-center flex-col w-[319px] max-[330px]:w-[270px] h-[332px] bg-[#f6f6f6] relative">
+              <img src="./src/assets/img/bigcard7.png" alt="" />
+              <p
+                class="p-2 bg-black text-white rounded-[8px] absolute top-2 left-2">
+                Распродажа
+              </p>
+              <img
+                class="absolute top-3 right-3"
+                src="./src/assets/svg/blacklike.svg"
+                alt="" />
+            </div>
+            <div
+              class="flex flex-col gap-4 pt-4 max-[330px]:mx-2 max-[350px]:text-[13px]">
+              <div class="flex items-start justify-between">
+                <p>
+                  Декоративный куст, с<br />
+                  шикарными листьями, горшком
+                </p>
+                <p>2 000 руб.</p>
+              </div>
+              <p>120 × 212 × 46</p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/addtree.png" alt="" />
+                </div>
+                <img src="./src/assets/svg/bucket2.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="w-fit mx-auto">
+            <div
+              class="flex items-center justify-center flex-col w-[319px] max-[330px]:w-[270px] h-[332px] bg-[#f6f6f6] relative">
+              <img src="./src/assets/img/bigcard8.png" alt="" />
+              <p
+                class="p-2 bg-black text-white rounded-[8px] absolute top-2 left-2">
+                Распродажа
+              </p>
+              <img
+                class="absolute top-3 right-3"
+                src="./src/assets/svg/blacklike.svg"
+                alt="" />
+            </div>
+            <div
+              class="flex flex-col gap-4 pt-4 max-[330px]:mx-2 max-[350px]:text-[13px]">
+              <div class="flex items-start justify-between">
+                <p>
+                  Декоративный куст, с<br />
+                  шикарными листьями, горшком
+                </p>
+                <p>2 000 руб.</p>
+              </div>
+              <p>120 × 212 × 46</p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/tree.png" alt="" />
+                  <img src="./src/assets/img/addtree.png" alt="" />
+                </div>
+                <img src="./src/assets/svg/bucket2.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-10">
+      <div class="container1">
+        <div
+          class="flex items-center justify-between gap-2 max-[800px]:flex-col">
+          <div
+            class="w-[50%] bg-[#f6f6f6] p-12 h-[360px] flex flex-col justify-between max-[800px]:w-[100%] max-[425px]:h-auto max-[425px]:p-6">
+            <h1 class="text-[30px] text-[#079294] max-[425px]:text-[20px]">
+              Раздел для десигна <br />о дисигн проектах <br />
+              и дисигнераз
+            </h1>
+            <p class="max-[425px]:text-[12px] max-[425px]:pt-5">
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br
+                class="max-[1170px]:hidden" />
+              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
+              <br class="max-[1170px]:hidden" />
+              текстов на латинице с начала XVI века.
+            </p>
+          </div>
+          <div
+            class="w-[50%] grid grid-cols-3 max-[1332px]:grid-cols-2 gap-2 max-[800px]:w-[100%] max-[340px]:grid-cols-1">
+            <div
+              class="py-[32px] bg-[#f6f6f6] flex items-center justify-center flex-col text-center gap-2">
+              <div class="relative">
+                <img
+                  class="relative z-10"
+                  src="./src/assets/svg/chair.svg"
+                  alt="" />
+                <img
+                  class="absolute top-[-15px] left-[-10%]"
+                  src="./src/assets/svg/circle.svg"
+                  alt="" />
+                <img
+                  class="absolute bottom-[-10px] right-[-10%]"
+                  src="./src/assets/svg/mini.svg"
+                  alt="" />
+              </div>
+              <p>Конструктор</p>
+            </div>
+            <div
+              class="py-[32px] bg-[#f6f6f6] flex items-center justify-center flex-col text-center gap-2">
+              <div class="relative">
+                <img
+                  class="relative z-10"
+                  src="./src/assets/svg/chair.svg"
+                  alt="" />
+                <img
+                  class="absolute top-[-15px] left-[-10%]"
+                  src="./src/assets/svg/circle.svg"
+                  alt="" />
+                <img
+                  class="absolute bottom-[-10px] right-[-10%]"
+                  src="./src/assets/svg/mini.svg"
+                  alt="" />
+              </div>
+              <p>Дизайн-проекты</p>
+            </div>
+            <div
+              class="py-[32px] bg-[#f6f6f6] flex items-center justify-center flex-col text-center gap-2">
+              <div class="relative">
+                <img
+                  class="relative z-10"
+                  src="./src/assets/svg/chair.svg"
+                  alt="" />
+                <img
+                  class="absolute top-[-15px] left-[-10%]"
+                  src="./src/assets/svg/circle.svg"
+                  alt="" />
+                <img
+                  class="absolute bottom-[-10px] right-[-10%]"
+                  src="./src/assets/svg/mini.svg"
+                  alt="" />
+              </div>
+              <p>Мебель на заказ</p>
+            </div>
+            <div
+              class="py-[32px] bg-[#f6f6f6] flex items-center justify-center flex-col text-center gap-2">
+              <div class="relative">
+                <img
+                  class="relative z-10"
+                  src="./src/assets/svg/chair.svg"
+                  alt="" />
+                <img
+                  class="absolute top-[-15px] left-[-10%]"
+                  src="./src/assets/svg/circle.svg"
+                  alt="" />
+                <img
+                  class="absolute bottom-[-10px] right-[-10%]"
+                  src="./src/assets/svg/mini.svg"
+                  alt="" />
+              </div>
+              <p>Заказать дизайн проекта</p>
+            </div>
+            <div
+              class="py-[32px] bg-[#f6f6f6] flex items-center justify-center flex-col text-center gap-2 max-[1332px]:hidden max-[800px]:block max-[800px]:flex">
+              <div class="relative">
+                <img
+                  class="relative z-10"
+                  src="./src/assets/svg/chair.svg"
+                  alt="" />
+                <img
+                  class="absolute top-[-15px] left-[-10%]"
+                  src="./src/assets/svg/circle.svg"
+                  alt="" />
+                <img
+                  class="absolute bottom-[-10px] right-[-10%]"
+                  src="./src/assets/svg/mini.svg"
+                  alt="" />
+              </div>
+              <p>Наши дизайнеры</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-10">
+      <div class="container1">
+        <div
+          class="text-[16px] font-extrabold flex items-center justify-between max-[300px]:flex-col max-[300px]:items-start mb-5">
+          <a>Готовые коллекции</a>
+          <a href="" class="hover:underline">Все коллекции</a>
+        </div>
+        <div class="flex items-center justify-between gap-3">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div
+                  class="bg-white hover:shadow-[0px_0px_20px_#cacaca] transition-all w-fit">
+                  <img src="./src/assets/img/triple4.png" alt="" />
+                  <p class="py-3 pl-2">Название коллекции</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-white hover:shadow-[0px_0px_20px_#cacaca] transition-all w-fit">
+                  <img src="./src/assets/img/triple5.png" alt="" />
+                  <p class="py-3 pl-2">Название коллекции</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-white hover:shadow-[0px_0px_20px_#cacaca] transition-all w-fit">
+                  <img src="./src/assets/img/triple6.png" alt="" />
+                  <p class="py-3 pl-2">Название коллекции</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-10 mt-10 border-y">
+      <div class="container1">
+        <div
+          class="flex items-start justify-between max-[957px]:grid grid-cols-2 max-[957px]:gap-10 max-[458px]:grid-cols-1 max-[458px]:pl-3">
+          <div class="flex items-start flex-col gap-2">
+            <h1 class="pb-3">Каталог</h1>
+            <a
+              class="text-[14px] hover:underline hover:text-[#079294] transition-all"
+              href=""
+              >Акции</a
+            >
+            <a
+              class="text-[14px] hover:underline hover:text-[#079294] transition-all"
+              href=""
+              >Мебель</a
+            >
+            <a
+              class="text-[14px] hover:underline hover:text-[#079294] transition-all"
+              href=""
+              >Список комнат</a
+            >
+            <a
+              class="text-[14px] hover:underline hover:text-[#079294] transition-all"
+              href=""
+              >Товары для дома</a
+            >
+            <a
+              class="text-[14px] hover:underline hover:text-[#079294] transition-all"
+              href=""
+              >Фурнитура и комплектующие</a
+            >
+            <a
+              class="text-[14px] hover:underline hover:text-[#079294] transition-all"
+              href=""
+              >Плитка, керамогранит и мозаика</a
+            >
+          </div>
+          <div class="flex items-start flex-col gap-2">
+            <h1 class="font-normal pb-3">Покупателю</h1>
+            <a
+              class="text-[14px] hover:underline hover:text-[#079294] transition-all"
+              href=""
+              >Мебель на заказ</a
+            >
+            <a
+              class="text-[14px] hover:underline hover:text-[#079294] transition-all"
+              href=""
+              >Дизайн-проекты</a
+            ><a
+              class="text-[14px] hover:underline hover:text-[#079294] transition-all"
+              href=""
+              >Наши салоны</a
+            ><a
+              class="text-[14px] hover:underline hover:text-[#079294] transition-all"
+              href=""
+              >Оплата и доставка</a
+            ><a
+              class="text-[14px] hover:underline hover:text-[#079294] transition-all"
+              href=""
+              >О нас</a
+            ><a
+              class="text-[14px] hover:underline hover:text-[#079294] transition-all"
+              href=""
+              >Для бизнеса</a
+            >
+          </div>
+          <div class="flex items-start flex-col gap-2">
+            <h1 class="font-normal pb-3">Контакты</h1>
+            <p>
+              Единая справочная: <br />
+              <a class="font-bold font-roboto" href="">8 800 700 40 24</a>
+              Звонок по России бесплатный<br />
+              Режим работы: с <span class="">02:00</span> до
+              <span class="">23:00</span> (МСК).
+            </p>
+            <div class="pt-5">
+              <p>Присоединяйтесь к нам в социальных сетях</p>
+              <div class="flex items-center gap-3 mt-2">
+                <img src="./src/assets/svg/inst.svg" alt="" />
+                <img src="./src/assets/svg/youtube.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flex items-start flex-col justify-between">
+            <div>
+              <p>Мы принимаем к оплате</p>
+              <img src="./src/assets/img/cash.png" alt="" />
+            </div>
+            <div class="pt-16">
+              <p>Нам важно ваше мнение</p>
+              <button
+                class="mt-3 rounded border border-black py-2 px-8 text-[14px] hover:bg-black hover:text-[#fff] transition-all active:scale-[0.9]">
+                Узнать подробнее
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer>
+      <div
+        class="container1 flex items-center justify-between py-4 max-[735px]:flex-col gap-3 max-[735px]:items-start max-[458px]:pl-3">
+        <div
+          class="flex items-center gap-10 max-[553px]:flex-col max-[553px]:items-start max-[553px]:gap-2">
+          <p>© 2020 Rendement. All rights reserved</p>
+          <a href="">Политика конфиденциальности</a>
+        </div>
+        <p>Developed by Legacystudio</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+
+        breakpoints: {
+          280: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          400: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          700: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
+      });
+      var swiper = new Swiper(".mySwiper1", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+
+        breakpoints: {
+          280: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          432: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          664: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          885: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+          1116: {
+            slidesPerView: 5,
+            spaceBetween: 30,
+          },
+          1342: {
+            slidesPerView: 6,
+            spaceBetween: 30,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
+<input class="hidden" id="check" type="checkbox" />
+<header class="header hidden max-[550px]:block relative backdrop-blur-sm">
+  <label class="absolute top-[5%] right-[5%]" for="check"
+    ><i class="fa-solid fa-xmark"></i
+  ></label>
+  <nav class="container1 flex flex-col justify-between border-b py-[14px]">
+    <a class="w-fit" href="">
+      <img src="./src/assets/img/logo.png" alt="" />
+    </a>
+    <select class="outline-none text-[12px] pb-3 bg-transparent" name="" id="">
+      <option value="">Санкт-Петербург</option>
+    </select>
+    <ul class="flex items-start flex-col justify-between gap-6 text-[14px]">
+      <li><a href="">О нас</a></li>
+      <li><a href="">Наши салоны</a></li>
+      <li><a href="">Оплата и доставка</a></li>
+      <li><a href="">Для бизнеса</a></li>
+    </ul>
+  </nav>
+  <nav class="flex flex-col items-start">
+    <h1 class="text-[20px] font-normal">8 800 700 40 24</h1>
+    <select class="text-[12px] font-normal outline-none" name="" id="">
+      <option
+        value="
+        ">
+        Позвонить или написать
+      </option>
+    </select>
+  </nav>
+</header>
