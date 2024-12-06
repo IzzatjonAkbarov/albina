@@ -14,17 +14,17 @@ var arr = ["salom", "alik", "xayr", "qachon"];
 // console.log(myNewFilter);
 
 // ----------------------------------mynewmap
-// Array.prototype.myMap = function (num) {
-//   let nevarr = [];
-//   for (let i = 0; i < arr.length; i++) {
-//     if (arr[i] == num) {
-//       nevarr.push(arr[i]);
-//     }
-//   }
-//   return nevarr;
-// };
-// console.log(arr.myMap("xayr"));
-// ===============================myfilter
+Array.prototype.myMap = function (num) {
+  let nevarr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == num) {
+      nevarr.push(arr[i]);
+    }
+  }
+  return nevarr;
+};
+console.log(arr.myMap("xayr"));
+// ===============================myevery
 // Array.prototype.mynewevery = function (num) {
 //   for (let i = 0; i < arr.length; i++) {
 //     if (arr[i] !== num) {
@@ -35,13 +35,13 @@ var arr = ["salom", "alik", "xayr", "qachon"];
 // };
 // console.log(arr.mynewevery("olma"));
 // ==========================================mysome
-Array.prototype.mynewsome = function (num) {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr.includes(num)) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-};
-console.log(arr.mynewsome("olma"));
+// Array.prototype.mynewsome = function (num) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr.includes(num)) {
+//       return true;
+//     } else {
+//       return false;
+//     }
+//   }
+// };
+// console.log(arr.mynewsome("olma"));
