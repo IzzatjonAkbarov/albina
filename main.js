@@ -1,29 +1,29 @@
 // ============================myNewFilter
-var arr = ["salom", "alik", "xayr", "qachon"];
+// var arr = ["salom", "alik", "xayr", "qachon"];
 
 // Array.prototype.myFilter = function (num) {
 //   var result = [];
 //   for (let i = 0; i < arr.length; i++) {
-//     if (arr[i] == num) {
-//       result.push(arr[i]);
-//     }
+//     result += num;
 //   }
-//   return result;
+//   return arr;
 // };
 // var myNewFilter = arr.myFilter("alik");
 // console.log(myNewFilter);
 
 // ----------------------------------mynewmap
-Array.prototype.myMap = function (num) {
-  let nevarr = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] == num) {
-      nevarr.push(arr[i]);
-    }
-  }
-  return nevarr;
-};
-console.log(arr.myMap("xayr"));
+// Array.prototype.myMap = function (callback) {
+//   let nevarr = [];
+//   for (let i = 0; i < this.length; i++) {
+//     if (callback(this[i], i, this)) {
+//       nevarr.push(callback(this[i], i, this));
+//     }
+//   }
+//   return nevarr;
+// };
+// let newestarr = myMap((value) => {
+//   return value * value;
+// });
 // ===============================myevery
 // Array.prototype.mynewevery = function (num) {
 //   for (let i = 0; i < arr.length; i++) {
